@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2
 SRC = src/main.c
-OUT = main
+OUT = hex2exe
 
 build: $(SRC)
 	$(CC) $(CFLAGS) -o $(OUT) $(SRC)
